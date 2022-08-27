@@ -1,4 +1,4 @@
-# Facial Expression Recognition using Deep Learning
+# Facial Expressions Recognition using Deep Learning
 
 Facial expressions are used by humans to convey various types of meaning like emotional states, feelings, and behavioral intentions. In this project, we work on analyzing humans' emotions through facial expressions. We build and train an artificial neural network that can be used to recognize and classify seven basic emotional states from facial expressions images.
 
@@ -9,7 +9,6 @@ In this project, we use open and free datasets available on the internet.
     - FER-2013 images from Kaggle (https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
     - Corrected labels by 10 crowd-sourced taggers from FER+ (https://github.com/microsoft/FERPlus)
 - Iranian Emotional Face Database (IEFDB) : Research paper (https://psyarxiv.com/2ces7/) and files (https://osf.io/a6e2u/)
-We don't host the datasets here, but there's no need to manually download the required files to run the project as we provide a script to automatically download the datasets.   
 
 These are few samples from the datasets : 
 <p align="center">
