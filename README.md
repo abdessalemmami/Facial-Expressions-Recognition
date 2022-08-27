@@ -17,7 +17,7 @@ These are few samples from the datasets :
 
 ## Approach
 
-To categorize emotions, we repose our work on the discrete emotional model proposed by Ekman. The model identifies six basic emotion states: Surprise, Anger, Disgust, Happiness, Sadness, and Fear. Those six emotions are universally and biologically experienced by all humans and widely accepted as such in the community. We also add a neutral state to the list to identify the non-emotional state.  
+To categorize emotions, we repose our work on the discrete emotional model proposed by Ekman. The model identifies six basic emotion states: Surprise, Anger, Disgust, Happiness, Sadness, and Fear. "Those six emotions are universally and biologically experienced by all humans and widely accepted as such in the community" [1]. We also add a neutral state to the list to identify the non-emotional state.  
 **Preprocessing**  
 Before feeding the images to the neural network, we perform the following preprocessing steps : 
 - Clean labels' files of the two datasets, and join them.
@@ -46,12 +46,12 @@ Install Tools
 
 Clone the project
 ```bash
-  git clone https://git.saslab.tn/ete2022/emotion/learningimage.git
+  https://github.com/abdessalemmami/Facial-Expressions-Recognition.git
 ```
 
 Go to the project directory
 ```bash
-  cd learningimage
+  cd Facial-Expressions-Recognition
 ```
 
 Configure Virtual Environment
@@ -75,3 +75,4 @@ Run FER
 When the training is done, everything will be saved to src/models/history/.
 
 ## Reference
+
